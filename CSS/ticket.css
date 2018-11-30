@@ -1,0 +1,29 @@
+body{
+    background-image: url(../IMAGES/backgrounds/cinema_hallway.jpg);
+    background-size:cover;
+    color: azure;
+}
+.all{ 
+    margin-top: 50px;
+    height: 1080px;
+    width: 60%;
+    margin-left: 250px;
+    align-content: center;
+    text-align: center;
+   }
+h1{
+    align-content: center;
+    text-align: center;
+    font-size: 40px;
+}
+p{
+    display: inline;
+    width: 50%;
+    float: left;
+    font-size: 30px;
+}
+img{
+    margin-top: 20px;
+    float: right;
+    height: 60px;
+}

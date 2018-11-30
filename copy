@@ -1,0 +1,94 @@
+div#projectlist {
+  width: 770px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+div#buzzbutton {
+  display: block;
+  float: left;
+  margin: 2px;
+  background: url(content/assets/thumbnails/design/buzz_sprite.jpg) 0 0px no-repeat;
+  width: 150px;
+  height: 150px;
+}
+
+div#buzzbutton:hover {
+  background: url(content/assets/thumbnails/design/buzz_sprite.jpg);
+  width: 150px;
+  height: 150px;
+  background-position: 0 -150px;
+}
+
+div#slinksterbutton {
+  display: block;
+  float: left;
+  background: url(content/assets/thumbnails/design/slinkster_sprite.jpg) 0 0px no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 2px;
+}
+
+div#slinksterbutton:hover {
+  background: url(content/assets/thumbnails/design/slinkster_sprite.jpg);
+  width: 150px;
+  height: 150px;
+  background-position: 0 -150px;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .hvrbox {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	max-width: 100%;
+	height: 100px;
+}
+.hvrbox .hvrbox-layer_bottom {
+	display: block;
+}
+.hvrbox .hvrbox-layer_top {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	padding: 15px;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+	opacity: 1;
+    height: 250px;
+}
+.hvrbox .hvrbox-text {
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
